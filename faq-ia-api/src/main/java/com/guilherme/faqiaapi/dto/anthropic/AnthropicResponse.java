@@ -4,9 +4,7 @@ import lombok.Data;
 
 import java.util.List;
 
-// Representa o que a API da Anthropic DEVOLVE. O texto gerado vem
-// dentro de "content", que e uma lista de blocos (normalmente so
-// um bloco do tipo "text" nas respostas simples).
+// resposta da Anthropic -- o texto vem em content[0].text
 @Data
 public class AnthropicResponse {
 

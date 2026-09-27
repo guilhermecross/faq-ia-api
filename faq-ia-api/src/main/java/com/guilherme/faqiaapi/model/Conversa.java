@@ -7,9 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
-// Guarda cada pergunta feita e a resposta gerada pela IA. Serve pra
-// auditoria (ver se a IA respondeu bem) e pra montar um historico
-// de atendimento.
+// historico de perguntas e respostas
 @Entity
 @Table(name = "conversa")
 @Data

@@ -6,9 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-// Regras gerais que nao sao especificas de um produto: politica de
-// troca, prazo de entrega, formas de pagamento, etc. Tambem entra
-// como contexto no prompt.
+// politicas gerais (troca, entrega, pagamento) -- entra no prompt tambem
 @Entity
 @Table(name = "regra_atendimento")
 @Data

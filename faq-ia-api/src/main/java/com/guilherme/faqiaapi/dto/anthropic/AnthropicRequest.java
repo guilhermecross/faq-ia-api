@@ -7,8 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-// Representa o "corpo" (body) que a API da Anthropic espera receber
-// em POST https://api.anthropic.com/v1/messages
+// body esperado pelo POST /v1/messages da Anthropic
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

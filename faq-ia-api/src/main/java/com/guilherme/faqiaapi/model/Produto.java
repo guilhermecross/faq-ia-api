@@ -6,10 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-// Base de conhecimento que a IA vai USAR PARA RESPONDER -- e o que
-// chamamos de "contexto" na engenharia de prompts. Sem isso, a IA
-// inventaria informacao (alucinacao); com isso, ela responde so com
-// o que esta cadastrado aqui.
+// contexto que a IA usa pra responder (sem isso ela inventa)
 @Entity
 @Table(name = "produto")
 @Data
